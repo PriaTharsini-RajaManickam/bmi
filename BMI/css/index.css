@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    font-family: 'Balsamiq Sans',serif;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#padding-adjust {
+    padding-right: 0 !important;
+}
+
+.row {
+    font-size: 1rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rebeccapurple;
+    color: #ffffff;
+    box-shadow: 5px 5px 55px #ffffff;
+    font-family: 'Piedra',serif;
+}
+
+h1 {
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Paragraphs */
+p {
+    margin-left: 250px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+    width: 100%;
+}
+
+li {
+    margin-top: 15px;
+}
+
+li a {
+    display: block;
+    color: hsl(0, 0%, 2%);
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: rebeccapurple;
+    color: #ffffff;
+}
+
+li a:hover:not(.active) {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Content and Layout Styling */
+.bg-container {
+    background-color: rgba(240, 240, 240, 0.6);
+    border: 7px dashed #fbf6f6;
+    margin-top: 5rem;
+}
+
+.bg-container-alt {
+    background-color: rebeccapurple;
+}
+
+.widget {
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 10px 5px 15px gray;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #000000;
+    transition: background-color 1s, transform 1s;
+}
+
+.widget:hover {
+    transform: scale(1.1);
+    background-color: cornsilk;
+    color: #000000;
+}
+
+/* Footer Credits */
+#footer-credits {
+    font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .content {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 765px) {
+    #padding-adjust {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    #navbarNavAltMarkup {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        margin-left: 0;
+    }
+    .responsive {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    #padding-remove {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1110px) {
+    #program-type {
+        display: none !important;
+    }
+}
+
